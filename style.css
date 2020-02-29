@@ -1,0 +1,146 @@
+body{
+    background-color: #222F3E;
+    text-align: center;
+}
+h1{
+    color: #2E86D4;
+    text-align: center;
+    margin-right: 150px;
+  
+}
+.top{
+    overflow: auto;
+}
+img{
+    float: left;
+    display: inline-block;
+    width: 200px;
+    height: 190px;
+    border-radius: 20px;
+}
+h3{
+    color: #2E86D4;
+}
+h2{
+    color: #10AC84;
+}
+
+.row{
+    text-align: center;
+}
+/* .row:after{
+    content: "";
+    display: table;
+    clear: both;
+    
+} */
+ul, ol{
+    color: white;
+}
+form{
+    border: 1px solid;
+	border-color: #10ac84;
+	margin-bottom:  15%;
+	margin-right : 30%;
+    margin-left: 30%;
+    padding: 10px;
+	width: 40%;
+	height:30%;
+	border-radius: 4px;
+}
+input, textarea{
+	border: 1px solid;
+	margin-top: 5px;
+	margin-bottom : 5px;
+	margin-left: 30%;
+	margin-right: 30%;
+	padding: 5px;
+	width: 40%;
+	border-radius: 4px;
+}
+button{
+    background-color: #10AC84;
+    color: white;
+    border: 0px solid;
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    margin-top: -5px;
+    margin-left: -45px;
+}
+
+.column{
+    float: left;
+    width: 33.33%;
+}
+
+
+.btn{
+	background-color: #10AC84;
+    color: white;
+    font-size: 20px;
+    border: 0px solid;
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    margin-top: -5px;
+    margin-left: 180px;
+
+}
+.btn:hover{
+	border-radius: 25px;
+	background-color: white;
+	color: #10ac84;
+}
+#btn2{
+    margin-top: 50px;
+}
+#anonymous{
+	width: 300px;
+	height: 200px;
+	background-color: rgba(255,182,0,1.00);
+	border: 1px solid orange;
+	font-size: 35px;
+	font-weight: 700;
+	text-align: center;
+	line-height: 198px;
+	box-shadow: 0px 0px 8px 4px orange;
+	margin: 150px auto;
+	animation: aniset 3s 1s 3 ease-in-out;
+	display: none;
+}
+@keyframes aniset{
+	0%{
+		transform: rotate(0deg);
+	}
+	20%{
+		transform: rotate(100deg);
+		background-color: #FF8600;
+	}
+	40%{
+		transform: rotate(200deg);
+		background-color: #E0FF00;
+	}
+	60%{
+		transform: rotate(360deg);
+		background-color: #02FF00;
+	}
+	80%{
+		transform: rotate(200deg);
+		background-color: #00F3FF;
+	}
+	100%{
+		transform: rotate(0deg);
+		background-color: #FF0057;
+	}
+}
+
+
+
+@media  screen and (max-width : 600px){
+    .column{
+        width: 100%;
+    }
+}

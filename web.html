@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>e-portfolio</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="./style.css">
+	<link rel="stylesheet" type="text/css" href="./e-portfolio.css">
+</head>
+<body>
+		<div class="top">
+		<img src="./profil.jpg">
+		<h1>NASRI Ala Eddine</h1>
+	</div>
+	<div class="row">
+		<div class="column" >
+			<h3>Student at ESI</h3>
+		</div>
+		<div class="column" >
+			<h3>CSE member</h3>
+		</div>
+		<div class="column" >
+			<h3>20 years old</h3>
+		</div>
+	</div>
+	<div class="row">
+		<div class="column">
+			<h3>Skills</h3>
+				<ol>
+					<li>Web Design</li>
+					<li>Web Dev</li>
+					<li>Mobile Develempment</li>
+				</ol>
+		</div>
+		
+		<div  class="column">
+			<h3>Languages</h3>
+				<ul>
+					<li>Arabic</li>
+					<li>French</li>
+					<li>Engilsh</li>
+				</ul>
+		</div>
+
+		<div  class="column">
+			<h3>Experience</h3>
+				<ul>
+					<li>Workshops</li>
+					<li>Freelance</li>
+				</ul>
+		</div>
+	</div>
+</div>
+	
+	<h2>Contact me!</h2>
+	<form >
+		<input type="Nom" placeholder="Name"><br>
+		<input type="text" placeholder="Email"><br>
+		<input type="text"  placeholder="Phone"><br>
+		<textarea type="text"  placeholder="Message"></textarea><br>
+		<div class="whdou">
+		<!--<button  type="submit" onClick="ani()">Click Me</button>-->
+		<div class="btn" onClick="ani()">
+			Start
+		</div>
+		<div class="btn" id="btn2" onClick="ani2()">
+			Exit
+		</div>
+		</div>
+	</form>
+	
+	
+	
+	<div id="anonymous">
+		Messege sent Thank u ! 
+	</div>
+	
+	<script type="text/javascript">
+		function ani(){
+			
+			document.getElementById('anonymous').style.display = 'block';
+		}
+		function ani2(){
+			document.getElementById('anonymous').style.display = 'none';
+		}
+	</script>
+</body>
+</html>
